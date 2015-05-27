@@ -29,7 +29,7 @@ void bubblesort(int a[], int n)
 	{
 		flag = 0;
 
-		for (j = 0; j < n - i; j++)
+		for (j = 1; j < n - i; j++)
 		{
 			if (a[j] < a[j - 1])
 			{
